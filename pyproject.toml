@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nltosql"
+version = "0.1.0"
+description = ""
+authors = ["Seavlang <sievlangvey@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.118.0"
+uvicorn = "^0.37.0"
+python-multipart = "^0.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
