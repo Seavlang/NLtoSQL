@@ -8,8 +8,19 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = "^0.118.0"
-uvicorn = "^0.37.0"
 python-multipart = "^0.0.20"
+uvicorn = {version = "^0.30.0", extras = ["standard"]}
+anyio = "^4.0"
+watchfiles = "^0.21"
+httpx = "^0.28.1"
+pydantic = "^2.11.9"
+python-dotenv = "^1.1.1"
+sqlalchemy = "^2.0.43"
+pandas = "^2.3.3"
+langchain = "^0.3.27"
+langchain-community = "^0.3.30"
+langchain-ollama = "^0.3.8"
+psycopg2 = "^2.9.10"
 
 
 [build-system]
